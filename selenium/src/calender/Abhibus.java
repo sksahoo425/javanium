@@ -44,26 +44,5 @@ public class Abhibus {
 		wait.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath(Xpath_Of_Element)));
 
 	}
-/**
- * @param str
- */
-static	void testdemo(String str) {
-		int x = 0;
-		try {
-			x = 10/(Integer.parseInt(str));
-		}catch(ArithmeticException e) {
-			
-			System.out.println(x);
-			System.exit(0);
-		}finally {
-			try {
-				int arr[] = new int[-1];
-			} catch (Exception e2) {
-				// TODO: handle exception
-			}
-			System.out.println("finally ");
-		}
-		
-	}
 
 }

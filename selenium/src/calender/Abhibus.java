@@ -21,8 +21,10 @@ public class Abhibus {
 		System.out.println();
 		ab.get_Firefox("https://www.abhibus.com/");
 		ab.Date_of_Journey("march", 5);
-		Thread.sleep(1000);
+		Thread.sleep(100);
+		
 		driver.quit();
+		
 
 	}
 
